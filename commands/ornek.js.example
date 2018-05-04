@@ -1,0 +1,20 @@
+const Command = require("../classes/voyunPride/Command");
+
+class Örnek extends Command {
+    constructor(client) {
+        super(client, {
+            name: "örnek", // komutun adı
+            enabled: true, // komutun açık olup olmadığını belirler
+            guildOnly: false, // komutun sadece sunucularda mı çalışacağını belirler
+            aliases: ["örn"], // komutun takma adlarını belirler
+            hodorRequired: false, // komutun sadece config.js'de belirtilen kullanıcıların çalıştırabileceğini belirler
+            timeout: 1000 // komut çalıştırıldıktan sonra, 1 saniye boyunca kullanılamaz.
+        });
+    }
+    
+    async run(message, suffix, args) { // eslint-disable-line no-unused-vars
+        /* kod buraya tşk */
+    }
+}
+
+module.exports = Örnek;

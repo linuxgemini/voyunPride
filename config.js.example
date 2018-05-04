@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+ *  Copyright (c) linuxgemini. All rights reserved.
+ *  Licensed under the Apache License 2.0.
+ *-------------------------------------------------------------*/
+
+"use strict";
+
+/**
+ * @typedef Config
+ * @type {Object}
+ * @property {string} kapi The string to trigger the bot.
+ * @property {string} anahtar The string of the bot token.
+ * @property {Array<string>} hodorlar The string array, containing the user IDs of the elevated users.
+ * @property {boolean} broadcastSystemMessages Flag to enable system messages. For example "permission denied" for elevated commands.
+ * @property {Object} googleConfig The object containing Google's public API settings.
+ * @param {string} googleConfig.api_key The string of the key to access Google's public API.
+ */
+
+/**
+ * @type {Config}
+ */
+const config = {
+    "kapi": "<*",
+    "anahtar": "",
+    "hodorlar": [
+        "120267401672523776",
+        "107292203696525312"
+    ],
+    "broadcastSystemMessages": true,
+    "googleConfig": {
+        "api_key": ""
+    }
+};
+
+module.exports = config;

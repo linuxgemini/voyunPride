@@ -1,0 +1,32 @@
+{
+  "name": "voyunpride",
+  "version": "0.1.3",
+  "description": "Another Discord.js bot, this time it is class-based.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxgemini/voyunPride.git"
+  },
+  "keywords": [
+    "discord.js",
+    "bot"
+  ],
+  "author": "linuxgemini",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/linuxgemini/voyunPride/issues"
+  },
+  "homepage": "https://github.com/linuxgemini/voyunPride#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "discord.js": "^11.3.2",
+    "enmap": "^2.0.1",
+    "enmap-mongo": "^2.0.1",
+    "klaw": "^2.1.1",
+    "moment": "^2.20.1",
+    "moment-duration-format": "^2.2.1"
+  }
+}
